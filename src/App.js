@@ -131,7 +131,7 @@ function App() {
               Name
             </label>
             <input
-              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              class="shadow appearance-none border rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               type="text"
               value={name}
               onChange={handleNameChange}
@@ -146,7 +146,7 @@ function App() {
             State
           </label>
           <select
-            class="block appearance-none cursor-pointer bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            class="block appearance-none cursor-pointer bg-white border border-gray-200 text-gray-700 py-2 px-2 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
             value={course}
             onChange={handleCourseChange}
           >
