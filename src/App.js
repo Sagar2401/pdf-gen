@@ -46,7 +46,7 @@ function App() {
       color: rgb(0, 0, 0),
     });
 
-    const currentDate = new Date().toLocaleDateString();
+    const currentDate = new Date().toLocaleString();
     page.drawText(`Date of Offer (current date): ${currentDate}`, {
       x: 50,
       y: height - 140,
